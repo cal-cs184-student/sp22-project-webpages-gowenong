@@ -31,7 +31,7 @@
 <h1 align="middle">CS 184: Computer Graphics and Imaging, Spring 2022</h1>
 <h1 align="middle">Project 3-1: PathTracer</h1>
 <h2 align="middle">Naman Nisheeth (SID: 3034144312) and Owen Gong (SID: 3034100450)</h2>
-<h3 align="middle"> <a href="https://cal-cs184-student.github.io/sp22-project-webpages-gowenong/proj3-1/index.html">Link to Hosted Website:</a> https://cal-cs184-student.github.io/sp22-project-webpages-gowenong/proj3-1/index.html</h3>
+<h3 align="middle"> <a href="https://cal-cs184-student.github.io/sp22-project-webpages-nnisheeth791/proj3-1/index.html">Link to Hosted Website:</a> https://cal-cs184-student.github.io/sp22-project-webpages-nnisheeth791/proj3-1/index.html</h3>
 
 <br><br>
 
@@ -41,7 +41,7 @@
 	<p>In this project, we implemented to main foundations of path tracing. We created the core rountines of a physically-based
 	rendering system that used a pathtracing algorithm. There were many concepts that we learned in class which we applied in this
 	assignment, such as ray-scene intersection, acceleration structures, and physically based lighting and materials. This was a technically
-	challenging project simply due to the time it took to render some objects, and debugging often involved investigating previous parts of the project.</p>
+	challenging project simply due to the time it took to render some objects.</p>
 
 	<h3 align="middle">Part 1: Ray Generation and Scene Intersection</h3>
 
@@ -190,15 +190,15 @@
 		<table style="width=100%">
 			<tr>
 				<td>
-					<img src="images/.png" align="middle" width="300px" />
+					<img src="images/spheres.png" align="middle" width="300px" />
 					<figcaption align="middle">CBspheres_lambertian.dae</figcaption>
 				</td>
 				<td>
-					<img src="images/.png" align="middle" width="300px" />
-					<figcaption align="middle">bench.dae</figcaption>
+					<img src="images/dragon.png" align="middle" width="300px" />
+					<figcaption align="middle">dragon.dae</figcaption>
 				</td>
 				<td>
-					<img src="images/.png" align="middle" width="300px" />
+					<img src="images/blob.png" align="middle" width="300px" />
 					<figcaption align="middle">blob.dae</figcaption>
 				</td>
 			</tr>
@@ -210,11 +210,11 @@
 		<table style="width=100%">
 			<tr>
 				<td>
-					<img src="images/.png" align="middle" width="300px" />
+					<img src="images/directReal.png" align="middle" width="300px" />
 					<figcaption align="middle">Only Direct Lighting</figcaption>
 				</td>
 				<td>
-					<img src="images/.png" align="middle" width="300px" />
+					<img src="images/indirect.png" align="middle" width="300px" />
 					<figcaption align="middle">Only Indirect Lighting</figcaption>
 				</td>
 			</tr>
@@ -227,27 +227,27 @@
 		<table style="width=100%">
 			<tr>
 				<td>
-					<img src="images/.png" align="middle" width="300px" />
+					<img src="images/bunny0.png" align="middle" width="200px" />
 					<figcaption align="middle">Depth: 0</figcaption>
 				</td>
 				<td>
-					<img src="images/.png" align="middle" width="300px" />
+					<img src="images/.png" align="middle" width="200px" />
 					<figcaption align="middle">Depth: 1</figcaption>
 				</td>
 			</tr>
 			<tr>
 				<td>
-					<img src="images/.png" align="middle" width="300px" />
+					<img src="images/.png" align="middle" width="200px" />
 					<figcaption align="middle">Depth: 2</figcaption>
 				</td>
 				<td>
-					<img src="images/.png" align="middle" width="300px" />
+					<img src="images/.png" align="middle" width="200px" />
 					<figcaption align="middle">Depth: 3</figcaption>
 				</td>
 			</tr>
 			<tr>
 				<td>
-					<img src="images/.png" align="middle" width="300px" />
+					<img src="images/.png" align="middle" width="200px" />
 					<figcaption align="middle">Depth: 100</figcaption>
 				</td>
 			</tr>
@@ -259,37 +259,37 @@
 		<table style="width=100%">
 			<tr>
 				<td>
-					<img src="images/.png" align="middle" width="300px" />
+					<img src="images/sphere1.png" align="middle" width="300px" />
 					<figcaption align="middle">Sample per Pixel: 1</figcaption>
 				</td>
 				<td>
-					<img src="images/.png" align="middle" width="300px" />
+					<img src="images/sphere2.png" align="middle" width="300px" />
 					<figcaption align="middle">Sample per Pixel: 2</figcaption>
 				</td>
 			</tr>
 			<tr>
 				<td>
-					<img src="images/.png" align="middle" width="300px" />
+					<img src="images/sphere4.png" align="middle" width="300px" />
 					<figcaption align="middle">Sample per Pixel: 4</figcaption>
 				</td>
 				<td>
-					<img src="images/.png" align="middle" width="300px" />
+					<img src="images/sphere8.png" align="middle" width="300px" />
 					<figcaption align="middle">Sample per Pixel: 8</figcaption>
 				</td>
 			</tr>
 			<tr>
 				<td>
-					<img src="images/.png" align="middle" width="300px" />
+					<img src="images/sphere16.png" align="middle" width="300px" />
 					<figcaption align="middle">Sample per Pixel: 16</figcaption>
 				</td>
 				<td>
-					<img src="images/.png" align="middle" width="300px" />
+					<img src="images/sphere64.png" align="middle" width="300px" />
 					<figcaption align="middle">Sample per Pixel: 64</figcaption>
 				</td>
 			</tr>
 			<tr>
 				<td>
-					<img src="images/.png" align="middle" width="300px" />
+					<img src="images/sphere1024.png" align="middle" width="300px" />
 					<figcaption align="middle">Sample per Pixel: 1024</figcaption>
 				</td>
 			</tr>
@@ -300,21 +300,21 @@
 	<h3 align="middle">Part 5: Adaptive Sampling</h3>
 	<p>Finally, we implemented adaptive sampling by modifying logic in raytrace_pixel to account for convergence when ray tracing.
 		Pixels that converge quickly do not need as many samples as those that don't converge, and we can adjust that accordingly in our code
-		by checking if convergence is less than maxTolerence * (the mean of n samples) with equations given in spec (equations depend on mean and variance of the n samples, 
-		which in turn depends on the sum of the samples' illuminance and sum of the samples' illuminance squared. Because we don't want to calculate a pixel's convergence for 
+		by checking if convergence is less than maxTolerence * (the mean of n samples) with equations given in spec (equations depend on mean and variance of the n samples,
+		which in turn depends on the sum of the samples' illuminance and sum of the samples' illuminance squared. Because we don't want to calculate a pixel's convergence for
 		each new sample, we also want to check in batches (such as 32, 64 samples in a batch at a time), to improve time performance. The resulting sample rate image shows us
 		which pixels and areas are sampled the most (converge the slowest), with red indicating more sample and blue indicating less samples.
 	</p>
 
 
-	<p>Below is CBbunny.dae rendered at 2048 samples per pixel (64 samples per batch), at 1 sample per light and 5 max ray depth. 
-	Though the sample rate image seems a little off from the reference picture in the docs (reference has more green on the area light on top), 
-	the image still clearly shows areas of higher sampling rate (the red ceiling and bottom of bunny) vs. areas of lower sampling rate (the walls and area light).</p>
+	<p>Below is CBbunny.dae rendered at 2048 samples per pixel (64 samples per batch), at 1 sample per light and 5 max ray depth.
+		Though the sample rate image seems a little off from the reference picture in the docs (reference has more green on the area light on top),
+		the image still clearly shows areas of higher sampling rate (the red ceiling and bottom of bunny) vs. areas of lower sampling rate (the walls and area light).</p>
 	<div align="middle">
 		<table style="width=100%">
 			<tr>
 				<td>
-					<img src="images/bunny_rate.png" align="middle" width="300px" />
+					<img src="images/bunnyRate.png" align="middle" width="300px" />
 					<figcaption align="middle">Sample Rate Image</figcaption>
 				</td>
 				<td>
